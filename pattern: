@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+class Scratch {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        System.out.print("Enter the iteration:");
+        int it=s.nextInt();
+        for(int i=1;i<=it;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        int it_2=it-1;
+        int r=1;
+        for(int i=1;i<=it_2;i++){
+            for (int j=it_2;j>=i;j--){
+                System.out.print(r);
+                r++;
+            }
+            System.out.println();
+            r=1;
+        }
+    }
+}
