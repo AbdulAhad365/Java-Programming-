@@ -22,6 +22,7 @@ class Quiz {
 
         }
         // Subtraction for the two numbers:
+        //i am a calculator
         else if (operation.equals("-")) {
             comp = (num1) - (num2);
             if (user == comp) {
