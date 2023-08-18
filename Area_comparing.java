@@ -7,6 +7,7 @@ class Scratch {
         System.out.println("Enter the width of the rectangle of the rectangle 2");
         double width1=s.nextDouble();
         double area1=(lenght1*width1);
+        //hello
 
 
         System.out.println("Enter the length of the rectangle 2");
